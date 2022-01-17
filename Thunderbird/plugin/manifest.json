@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Picture Downloader",
+    "description": "An extension to automatically download pictures to a pictures folder.",
+    "version": "1.0",
+    "author": "Tyler Hundt (HundterG)",
+    "applications": {
+        "gecko": {
+            "id": "hundtergpicturedownloader@thunderbird",
+            "strict_min_version": "91.0"
+        }
+    },
+    "background": {
+        "scripts": ["script.js"]
+    },
+    "permissions": ["messagesRead", "accountsRead", "messagesDelete"],
+    "icons": {
+        "64": "images/internet.png",
+        "32": "images/internet-32px.png",
+        "16": "images/internet-16px.png"
+    }
+}
